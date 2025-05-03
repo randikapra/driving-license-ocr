@@ -1,13 +1,19 @@
-Sri Lankan License Extractor
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 align="center">Sri Lankan License Extractor</h1>
+</head>
+<body>
+    
 <div align="center">
     <h2>
-        <a href="https://github.com/yourusername/sri-lankan-license-extractor">
+        <a href="https://github.com/randikapra/driving-license-ocr">
             <img src="https://img.shields.io/badge/Project-GitHub-coral" alt="Project">
         </a>
-        <a href="https://github.com/yourusername/sri-lankan-license-extractor/tree/main/docs">
+        <a href="https://github.com/randikapra/driving-license-ocr/blob/main/README.md">
             <img src="https://img.shields.io/badge/Documentation-Read%20Now-steelblue" alt="Documentation">
         </a>
-        <a href="https://github.com/yourusername/sri-lankan-license-extractor/tree/main/notebooks">
+        <a href="https://github.com/randikapra/driving-license-ocr/blob/main/driving-license-ocr/notebooks/driving-license-ocr.ipynb">
             <img src="https://img.shields.io/badge/Notebooks-Demo-teal" alt="Demo Notebooks">
         </a>
     </h2>
