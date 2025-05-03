@@ -55,8 +55,7 @@ Project Phases
 </p>
 
 <h2>Project Structure</h2>
-<pre>
-sri-lankan-license-extractor/
+<pre>sri-lankan-license-extractor/
 ├── data/
 │   ├── raw/                      # Raw input license images
 │   ├── processed/                # Preprocessed images
