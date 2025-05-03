@@ -7,7 +7,7 @@
     
 <div align="center">
     <h2>
-        <a href="https://github.com/randikapra/driving-license-ocr">
+        <a href="https://github.com/randikapra/driving-license-ocr/tree/main/driving-license-ocr">
             <img src="https://img.shields.io/badge/Project-GitHub-coral" alt="Project">
         </a>
         <a href="https://github.com/randikapra/driving-license-ocr/blob/main/README.md">
