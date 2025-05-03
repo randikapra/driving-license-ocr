@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <h1 align="center">Sri Lankan License Extractor</h1>
+    <h1 align="center">Sri Lankan Driving License Information Extractor</h1>
 </head>
 <body>
     
