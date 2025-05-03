@@ -1,0 +1,27 @@
+# Core requirements
+numpy
+pandas
+opencv-python
+Pillow
+pytesseract
+scikit-learn
+scipy
+matplotlib
+seaborn
+
+# Deep learning
+torch
+torchvision
+tensorflow
+
+# OCR and text processing
+easyocr
+python-dateutil
+regex
+
+# Utilities
+tqdm
+PyYAML
+configargpars
+joblib
+
