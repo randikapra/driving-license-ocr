@@ -53,7 +53,9 @@ Project Phases
 <b>Objective:</b> Format the extracted data into a clean, structured tabular format for easy interpretation and further processing.<br>
 <b>Outcome:</b> A structured table where each row corresponds to a vehicle category with its start and expiry dates.<br><br>
 </p>
-Project Structure
+
+<h2>Project Structure</h2>
+<pre>
 sri-lankan-license-extractor/
 ├── data/
 │   ├── raw/                      # Raw input license images
@@ -91,6 +93,7 @@ sri-lankan-license-extractor/
 ├── README.md
 ├── requirements.txt
 └── setup.py
+</pre>
 Installation and Setup
 Prerequisites
 
