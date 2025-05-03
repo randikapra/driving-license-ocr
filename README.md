@@ -97,28 +97,28 @@ bash# Clone the repository
 git clone https://github.com/yourusername/sri-lankan-license-extractor.git
 cd sri-lankan-license-extractor
 
-# Install Tesseract OCR
-# For Ubuntu/Debian:
+<b>Install Tesseract OCR</b>
+For Ubuntu/Debian:
 sudo apt-get install tesseract-ocr
-# For macOS:
+For macOS:
 brew install tesseract
-# For Windows, download from: https://github.com/UB-Mannheim/tesseract/wiki
+For Windows, download from: https://github.com/UB-Mannheim/tesseract/wiki
 
-# Create and activate virtual environment (optional)
+Create and activate virtual environment (optional)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install required packages
+Install required packages
 pip install -r requirements.txt
 
-# Install package in development mode
+Install package in development mode
 pip install -e .
 Usage Examples
 Command Line Interface
 bash# Process a single image
 python -m src.pipeline --image path/to/license_image.jpg
 
-# Process all images in a directory
+Process all images in a directory
 python -m src.pipeline --directory path/to/images/ --output path/to/output/
 Python API
 pythonfrom src.pipeline import preprocess_license_image
@@ -126,13 +126,13 @@ from src.extraction.ocr import extract_text
 from src.extraction.vehicle_classes import extract_vehicle_classes
 from src.extraction.dates import extract_dates
 
-# Process a single image
+Process a single image
 processed_img = preprocess_license_image('path/to/license_image.jpg')
 text = extract_text(processed_img)
 vehicle_classes = extract_vehicle_classes(text)
 dates = extract_dates(text)
 
-# Display results
+Display results
 print(f"Extracted vehicle classes: {vehicle_classes}")
 print(f"Extracted dates: {dates}")
 Performance Metrics
@@ -165,28 +165,23 @@ Team
 <table>
     <tr>
         <th>🎓 Role</th>
-        <th>👤 Name</th>
+        <th>👲 Name</th>
         <th>🔗 GitHub</th>
         <th>🔗 LinkedIn</th>
     </tr>
     <tr>
         <td>Project Lead</td>
-        <td>Your Name</td>
-        <td><a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80" height="20"/></a></td>
-        <td><a href="https://linkedin.com/in/yourusername"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80" height="20"/></a></td>
+        <td>Randika Prabashwara</td>
+        <td><a href="https://github.com/randikapra"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80" height="20"/></a></td>
+        <td><a href="https://www.linkedin.com/in/randika-prabashwara-739bba237/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80" height="20"/></a></td>
+    </tr>
+        <td>Contributor</td>
+        <td>Randika Prabashwara</td>
+        <td><a href="https://github.com/randikapra"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80" height="20"/></a></td>
+        <td><a href="https://www.linkedin.com/in/randika-prabashwara-739bba237/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80" height="20"/></a></td>
     </tr>
     <tr>
-        <td>Contributor</td>
-        <td>Team Member 1</td>
-        <td><a href="https://github.com/teammember1"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80" height="20"/></a></td>
-        <td><a href="https://linkedin.com/in/teammember1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80" height="20"/></a></td>
-    </tr>
-    <tr>
-        <td>Contributor</td>
-        <td>Team Member 2</td>
-        <td><a href="https://github.com/teammember2"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" width="80" height="20"/></a></td>
-        <td><a href="https://linkedin.com/in/teammember2"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" width="80" height="20"/></a></td>
-    </tr>
+
 </table>
 <p align="center">
     <img src="https://img.shields.io/badge/release-v1.0.0-blue" alt="release"/>
